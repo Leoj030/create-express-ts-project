@@ -1,6 +1,6 @@
 {
   "name": "create-express-ts-project",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bin": {
     "create-express-ts-app": "./bin/cli.js"
   },
@@ -13,7 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/Leoj030/create-express-ts-project.git"
   },
-  
   "scripts": {
     "dev:type-check": "tsc --noEmit --watch",
     "dev:start": "tsx --watch src/index.ts",
@@ -29,7 +28,6 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-
   "devDependencies": {
     "@babel/core": "^7.28.0",
     "@babel/node": "^7.28.0",
