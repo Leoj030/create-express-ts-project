@@ -27,9 +27,7 @@ async function main() {
     fs.mkdirSync(projectPath, { recursive: true });
     spinner.succeed();
 
-    spinner.start(chalk.cyan('Copying project files...'));
     fs.cpSync(templatePath, projectPath, { recursive: true });
-    spinner.succeed();
 
     fs.renameSync(
       path.join(projectPath, 'gitignore'),
@@ -46,7 +44,6 @@ async function main() {
     await asyncExec('npm install');
     spinner.succeed(chalk.green('Dependencies installed!'));
 
-    // --- Initialize Git Repository ---
     await asyncExec('git init');
 
     console.log(chalk.bold.green('\n🚀 Project is ready to use!'));
