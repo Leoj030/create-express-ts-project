@@ -30,8 +30,14 @@ tests/
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/Leoj030/express-project-boilerplate.git
+git clone https://github.com/Leoj030/create-express-ts-project.git
 cd express-backend-boilerplate
+```
+
+### use npx create-express-ts-app
+
+```sh
+npx create-express-ts-app <project-name>
 ```
 
 ### 2. Install dependencies
