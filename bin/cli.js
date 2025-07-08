@@ -26,7 +26,7 @@ try {
     execSync('npx rimraf ./.git');
   
     if (fs.existsSync(path.join(projectPath, 'bin'))) {
-        fs.rmdirSync(path.join(projectPath, 'bin'), { recursive: true });
+        fs.rmSync(path.join(projectPath, 'bin'), { recursive: true, force: true });
     }
   
     console.log('\nInstallation is done! The project is ready to use.');
