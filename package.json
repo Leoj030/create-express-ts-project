@@ -1,14 +1,17 @@
 {
   "name": "express-project-boilerplate",
   "version": "1.0.0",
-  "description": "A simple, modern Express.js backend boilerplate using TypeScript, Jest, Babel, and best practices for rapid backend development and easy integration.",
-  "homepage": "https://github.com/Leoj030/express-backend-boilerplate#readme",
+  "bin": {
+    "create-express-ts-app": "./bin/cli.js"
+  },
+  "description": "",
+  "homepage": "https://github.com/Leoj030/express-project-boilerplate#readme",
   "bugs": {
-    "url": "https://github.com/Leoj030/express-backend-boilerplate/issues"
+    "url": "https://github.com/Leoj030/express-project-boilerplate/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Leoj030/express-backend-boilerplate.git"
+    "url": "git+https://github.com/Leoj030/express-project-boilerplate.git"
   },
   
   "scripts": {
@@ -24,8 +27,9 @@
     "test": "jest"
   },
   "keywords": [],
-  "author": "Leoj",
+  "author": "",
   "license": "MIT",
+
   "devDependencies": {
     "@babel/core": "^7.28.0",
     "@babel/node": "^7.28.0",

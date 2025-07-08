@@ -1,4 +1,4 @@
-# 🚀 Express Backend Boilerplate
+# 🚀 Express Project Boilerplate
 
 A simple, modern Express.js backend boilerplate using TypeScript, Jest, Babel, and best practices for rapid backend development and easy integration.
 
@@ -30,7 +30,7 @@ tests/
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/Leoj030/express-backend-boilerplate.git
+git clone https://github.com/Leoj030/express-project-boilerplate.git
 cd express-backend-boilerplate
 ```
 
