@@ -1,6 +1,6 @@
 {
   "name": "create-express-ts-project",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "bin": {
     "create-express-ts-app": "./bin/cli.js"
   },
@@ -17,15 +17,14 @@
     "type": "git",
     "url": "git+https://github.com/Leoj030/create-express-ts-project.git"
   },
-
   "keywords": [
-        "cli",
-        "jest",
-        "node",
-        "babel",
-        "express",
-        "typescript"
-    ],
+    "cli",
+    "jest",
+    "node",
+    "babel",
+    "express",
+    "typescript"
+  ],
   "author": "leoj",
   "license": "MIT",
   "dependencies": {
