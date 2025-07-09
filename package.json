@@ -18,8 +18,15 @@
     "url": "git+https://github.com/Leoj030/create-express-ts-project.git"
   },
 
-  "keywords": [],
-  "author": "",
+  "keywords": [
+        "cli",
+        "jest",
+        "node",
+        "babel",
+        "express",
+        "typescript"
+    ],
+  "author": "leoj",
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.4.1",
